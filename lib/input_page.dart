@@ -219,10 +219,11 @@ class _InputPageState extends State<InputPage> {
               margin: EdgeInsets.only(top: 10),
               width: double.infinity,
               height: kBottomContainerHeight,
+              padding: EdgeInsets.only(bottom: 20),
               child: Center(
                 child: Text(
                   'CALCULATE',
-                  style: kNumberTextStyle,
+                  style: kLargeButtonTextStyle,
                 ),
               ),
             ),
